@@ -1,0 +1,14 @@
+fastapi
+langchain-cerebras
+langchain-mistralai
+python-multipart
+uvicorn
+loguru
+langchain
+sentence-transformers
+optree>=0.13.0
+numpy
+dotenv
+groq 
+chainlit
+torch==2.6.0
