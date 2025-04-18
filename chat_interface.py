@@ -12,7 +12,7 @@ from langfuse.callback import CallbackHandler
 from langchain_neo4j import Neo4jGraph
 from langchain_core.output_parsers import StrOutputParser
 from loguru import logger
-from dotenv import load_dotnev
+from dotenv import load_dotenv
 
 load_dotenv()
 
