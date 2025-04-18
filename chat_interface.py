@@ -66,10 +66,6 @@ logger.add(
 
 logger.info("Starting Medical QA Assistant")
 
-# Ensure parent dir is in path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-logger.debug(f"Added parent directory to path: {os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))}")
-
 try:
     logger.debug("Importing database modules...")
     from langchain.vectorstores import Neo4jVector
